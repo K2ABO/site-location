@@ -14,8 +14,8 @@
           <div class="header-top">
             <div class="nav-logo">
               <img class="logo" src="logo.png" alt="logo"/>
+              <a>A Home For EveryOne</a>
             </div>
-            <a class="text">A Place For EveryOne</a>
             <div class="nav-link">
                 <a href="location.html">Accueil</a>      
                 <a href="contact.html">Contact</a>
@@ -23,6 +23,8 @@
      </div>
           <div class="title_page">
             <h1 class="title">Où Nous Trouver?</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1130.2711859099925!2d2.1282024955793766!3d13.51076981426117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11d0753f6a3db5db%3A0xdb5f25014ae03828!2sCEG2!5e0!3m2!1sfr!2sne!4v1583247733192!5m2!1sfr!2sne"
+             width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="true"></iframe>
           </div>
         </div>
         
@@ -32,7 +34,29 @@
            <h2>E-mail: AFRIHOME@gmail.com</h2>
            <h2>Adresse: Quartier Nouveau marché en face CEG 2 </h2>
          </div>
-
+         <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="Niger">Australia</option>
+                <option value="Mali">Canada</option>
+                <option value="Benin">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
          <div class="footer">
             <div class="footer-top">
               <div class="social">
@@ -47,7 +71,7 @@
             </div>
             
            </div>
+           
   </body>
-</html>
 
- 
+</html>
